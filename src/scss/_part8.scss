@@ -1,0 +1,66 @@
+.part8 {
+    padding-top: 80px;
+    width: 100%;
+
+    .part8-content {
+        padding: 75px 0 80px;
+        text-align: center;
+
+        p {
+            font-size: 13px;
+            color: #929292;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #292929;
+            margin-bottom: 20px;
+            line-height: 28px;
+            font-weight: 500;
+        }
+
+        .content-div {
+            position: relative;
+            border: 2px solid #ebebeb;
+            width: 620px;
+            max-width: 100%;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: flex;
+
+            input {
+                width: 100%;
+                border: none;
+                padding: 10px 200px 10px 20px;
+                // padding-right: 200px;
+                line-height: 30px;
+                height: 55px;
+                color: #9d9d9d;
+                font-size: 13px;
+            }
+
+            button {
+                position: absolute;
+                background: none;
+                border: none;
+                width: 200px;
+                border-left: 2px solid #ebebeb;
+                font-size: 13px;
+                font-weight: 600;
+                color: #292929;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 0;
+                text-transform: uppercase;
+                padding: 1px 6px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #ee3333;
+                }
+
+            }
+        }
+    }
+}

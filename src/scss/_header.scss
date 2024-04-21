@@ -1,8 +1,8 @@
 header {
     width: 100%;
-    left: 0;
-    position: fixed;
-    z-index: 100;
+    // left: 0;
+    // position: fixed;
+    // z-index: 100;
 
     .header-top {
         width: 100%;
@@ -58,6 +58,8 @@ header {
                 }
 
             }
+
+
 
             .nav-right {
                 padding: 14.4px;
@@ -284,20 +286,22 @@ header {
                     }
 
                     &:hover #home-menu {
-                        opacity: 1;
+                        display: block;
                     }
 
                     &:hover #shop-menu {
                         display: block;
                     }
-                    &:hover #blog-menu{
-                      display: block;
+
+                    &:hover #blog-menu {
+                        display: block;
                     }
 
                     #home-menu {
                         position: absolute;
                         margin-top: 0;
-                        opacity: 0;
+                        // opacity: 0;
+                        display: none;
                         visibility: visible;
                         z-index: 99;
                         padding: 20px 0;
@@ -307,7 +311,7 @@ header {
                         box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.6);
                         transition: all 0.3s ease 0s;
                         width: 210px;
-                        display: block;
+                        // display: block;
 
                         li {
                             margin-bottom: 5px;
@@ -452,7 +456,7 @@ header {
                                 transition: all 0.3s ease 0s;
                                 text-transform: capitalize;
 
-                                &:hover{
+                                &:hover {
                                     color: #ee3333;
                                     transform: translateX(5px);
                                 }
@@ -467,4 +471,13 @@ header {
             }
         }
     }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    
+   
+
+
 }
